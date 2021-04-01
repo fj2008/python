@@ -12,6 +12,8 @@ import requests
 
 #'버스를 타고(프로토콜)' '부산진구 중앙대로 668,4층으로 간다(도메인)'
 #'4층에 와서 인포데스크의 자동문으로 들어간다.(포트번호)'
+
+#상태코드에따라서 상황을 잘 분석하고 활용하자
 url = 'https://www.naver.com'
 
 requests = requests.get(url)
