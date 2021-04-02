@@ -24,7 +24,9 @@ response = requests.get(url,a_dic)
 
 print(response.text)
 
-
+file = open("C:/Users/ITPS/Desktop/index.html","w",encoding="UTF-8")
+file.write(response.text)
+file.close()
 
 
 
