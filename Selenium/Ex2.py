@@ -9,10 +9,10 @@ driver = webdriver.Chrome(executable_path=driverPath)
 driver.get(url=URL)
 driver.implicitly_wait(10)
 
-elementList = driver.find_element_by_css_selector('.WHE7ib.mpg5gc')
+elementList = driver.find_element_by_css_selector("#fcxH9b > div.WpDbMd > c-wiz > div > div.N4FjMb.Z97G4e.QeUCtb > div > c-wiz > c-wiz:nth-child(2) > c-wiz > div > div.ZmHEEd.fLyRuc > div")
 for element in elementList :
-    elementName = element.find_element_by_css_selector(".WsMG1c.nnK0zc")
-    elementName = elementName.text
+    elementName = element.find_element_by_css_selector(".WHE7ib mpg5gc")
+    element = elementName
     print(elementName,"페이지에 접속")
 
     element.click()

@@ -48,7 +48,7 @@ driver.implicitly_wait(10)
 # elemont = driver.find_element_by_xpath('/html/body/div[1]/div[4]/c-wiz/div/div[2]/div/c-wiz/c-wiz[2]/c-wiz/div/div[2]/div[3]/c-wiz/div/div/div[1]/div/div/a')
 # print(elemont)
 #
-elemont = driver.find_element_by_css_selector('#fcxH9b > div.WpDbMd > c-wiz > div > div.N4FjMb.Z97G4e.QeUCtb > div > c-wiz > c-wiz:nth-child(2) > c-wiz > div > div.ZmHEEd.fLyRuc > div:nth-child(3) > c-wiz > div > div > div.uzcko > div > div > a')
+elemont = driver.find_element_by_css_selector("#fcxH9b > div.WpDbMd > c-wiz > div > div.N4FjMb.Z97G4e.QeUCtb > div > c-wiz > c-wiz:nth-child(2) > c-wiz > div > div.ZmHEEd.fLyRuc > div")
 
 
 
