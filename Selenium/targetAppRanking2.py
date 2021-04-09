@@ -11,7 +11,7 @@ def makeRanking(name, start, end):
     #name 앱의 일별 순위
     ranking  = []
     for i in range(start,end+1):
-    day = str(i)
+        day = str(i)
     if len(day) == 1:
         day = "0" + day
 
